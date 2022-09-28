@@ -3,49 +3,56 @@
 }
 
 .linha h3{
-    background-color: rgb(142, 160, 235);
     padding: 20px;
     color: white;
     border-radius: 40px;
-  
+    background-image: linear-gradient(180deg,rgba(88, 99, 175, 0.756) ,rgba(199, 203, 230, 0.24) ); 
+    border: solid;
+    border-width: 0.1px;
+    border-color: rgb(67, 114, 241);
 }
 
 .btn{
     width: 50px;
     height: 50px;
     font-size: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 25px;
     margin-right: 5px;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     cursor: pointer;
+  
 }
 
 .linha h3:hover{
-    background-color: rgb(178, 202, 244); 
-    color:rgb(58, 143, 234);  
+    background-color: rgb(255, 255, 255); 
+    color: rgb(93, 114, 201);
+    
 }
 
 .title{
-    color: rgb(142, 160, 235);
+    color: rgba(255, 255, 255, 0.756);
     margin-left: 16px;
     font-size: 13px;
     margin-left: 4px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .calculadora{
-    background: rgba(48, 66, 180, 0.24);
-    background-size: 20px 20px;
+    background-image: linear-gradient(180deg,rgba(88, 99, 175, 0.756) ,rgba(199, 203, 230, 0.24) ); 
     padding: 30px;
     padding-bottom: 60px;
-    margin-right: 77%;
+    width: 220px;
     border-radius: 20px;
+    border: double;
+    border-color: rgb(8, 8, 109);
 
 
 }
 
 input[type=text]{
     background-color: #edeff9; /* Green */
-    border: solid;
+    border: inset;
+    border-color:aliceblue;
     color: white;
     padding: 15px 32px;
     text-align: center;
