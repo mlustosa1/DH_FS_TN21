@@ -4,7 +4,7 @@ let btns = document.querySelectorAll(".btn");
 let visor = document.querySelector(".visor input");
 for (let x = 0; x < btns.length; x++){
 let btn = btns[x]
-if ("1234567890-+*/()".includes(btn.innerText)){
+if ("1234567890-+*/.()".includes(btn.innerText)){
     btn.addEventListener("click", function() {
     visor.value += btn.innerText;
     })}
